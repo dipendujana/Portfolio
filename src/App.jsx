@@ -1,12 +1,13 @@
 import './App.css'
+import { ThemeProvider } from './common/ThemeContext'
 import Hero from './sections/Hero/Hero'
 
 function App() {
   return (
-    <>
-      <div> App</div>
-      <Hero/>
-    </>
+   <ThemeProvider>
+     <Hero />
+  </ThemeProvider>
+ 
   )
 }
 
