@@ -1,6 +1,7 @@
 import styles from './ProjectsStyles.module.css';
 import oes from '../../assets/OES.png';
 import food_recipe_finder from '../../assets/food_recipe_finder.png';
+import cab_img from '../../assets/cab_img3.png'
 import to_do_list from '../../assets/to_do_list.png';
 import ProjectCard from '../../common/ProjectCard';
 
@@ -26,6 +27,12 @@ function Projects() {
           link="https://to-do-list-make-your-day-structure.netlify.app/"
           h3="To-Do App"
           p="Add your task"
+        />
+        <ProjectCard
+          src={cab_img}
+          link="https://yellowcabhub.netlify.app/"
+          h3="Cab Hub"
+          p="PSD to HTML Project"
         />
       </div>
     </section>
